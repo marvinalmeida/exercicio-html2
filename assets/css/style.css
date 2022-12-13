@@ -40,6 +40,7 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     border: 1px solid #ededed;
+    border-radius: 15px;
     align-items: center;
     justify-content: center;
     margin: 20px 0;
@@ -67,6 +68,7 @@ body {
 .js-acordion h2::after{
     content: '⤵';
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .js-acordion h2.ativo::after{
